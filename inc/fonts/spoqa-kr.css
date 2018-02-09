@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 700;
+	src: url('spoqa-kr-bold.eot');
+    src: local('Spoqa Han Sans Bold'), local('SpoqaHanSans-Bold'),
+		 url('spoqa-kr-bold.eot?#iefix') format('embedded-opentype'),
+		 url('spoqa-kr-bold.woff2') format('woff2'),
+		 url('spoqa-kr-bold.woff') format('woff'),
+		 url('spoqa-kr-bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 400;
+	src: url('spoqa-kr-regular.eot');
+    src: local('Spoqa Han Sans Regular'), local('SpoqaHanSans-Regular'),
+		 url('spoqa-kr-regular.eot?#iefix') format('embedded-opentype'),
+		 url('spoqa-kr-regular.woff2') format('woff2'),
+		 url('spoqa-kr-regular.woff') format('woff'),
+		 url('spoqa-kr-regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 300;
+	src: url('spoqa-kr-light.eot');
+    src: local('Spoqa Han Sans Light'), local('SpoqaHanSans-Light'),
+		 url('spoqa-kr-light.eot?#iefix') format('embedded-opentype'),
+		 url('spoqa-kr-light.woff2') format('woff2'),
+		 url('spoqa-kr-light.woff') format('woff'),
+		 url('spoqa-kr-light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 100;
+	src: url('spoqa-kr-thin.eot');
+    src: local('Spoqa Han Sans Thin'), local('SpoqaHanSans-Thin'),
+		 url('spoqa-kr-thin.eot?#iefix') format('embedded-opentype'),
+		 url('spoqa-kr-thin.woff2') format('woff2'),
+		 url('spoqa-kr-thin.woff') format('woff'),
+		 url('spoqa-kr-thin.ttf') format('truetype');
+}
