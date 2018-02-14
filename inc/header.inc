@@ -18,6 +18,7 @@
 	<link type="text/css" rel="stylesheet" href="/inc/fonts/spoqa-kr.css">
 	<link type="text/css" rel="stylesheet" href="/inc/fonts/iropke.css">
 	<link type="text/css" rel="stylesheet" href="/inc/css/kang2oon.reset.min.css">
+	<link type="text/css" rel="stylesheet" href="/inc/css/iziModal.min.css">
 	<link type="text/css" rel="stylesheet" href="/inc/css/style.css">
 	<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -25,17 +26,17 @@
 	<![endif]-->
 </head>
 
-<body>	
+<body class="">
 	<!-- Header -->
 	<div class="header container-fluid">
 		<div class="container clearfix">
-			<h1><img src="/images/logo_main.png" alt="EK_silverEDU" /></h1>
+			<h1><a href="/"><img src="/images/logo_main1.png" alt="실버에듀" /></a></h1>
 			<ul class="gnb clearfix">
 				<li class="program on">프로그램<span></span></li>
 			</ul>
 			<ul class="mnb clearfix">
 				<li><a href="javascript:void(0);">로그인</a></li>
-				<li><a href="javascript:void(0);">회원가입</a></li>
+				<li><a href="/member/join_agreement.html">회원가입</a></li>
 			</ul>
 		</div>
 	</div>
@@ -48,7 +49,7 @@
 				<select id="ym_choice">
 					<option value="201803">2018년 3월</option>
 				</select>
-				<a href="javascript:void(0);" class="btn btn_full btn_orange btn_bold">커리큘럼 보기</a>
+				<a href="javascript:void(0);" class="btn btn_full btn_orange btn_bold" data-izimodal-open="#curri">커리큘럼 보기</a>
 			</div>
 			<div class="week_plan clearfix">
 				<div class="plan">
@@ -125,7 +126,7 @@
 							<li><a href="javascript:void(0);">요리조리 실뜨기 놀이</a></li>
 							<li><a href="javascript:void(0);">아기토끼풀 동화 거꾸로 읽기</a></li>
 						</ul>
-						<a href="javascript:void(0);" class="btn btn_full btn_lstable">이 달의 <strong>생활습관표</strong></a>
+						<a href="javascript:void(0);" class="btn btn_full btn_lstable" data-izimodal-open="#ls_sum">이 달의 <strong>생활습관표</strong></a>
 					</div>
 				</div>
 			</div>
